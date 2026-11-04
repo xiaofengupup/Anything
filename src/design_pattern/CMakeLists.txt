@@ -1,6 +1,7 @@
 # 发布-订阅模式静态库
 add_library(design_pattern STATIC
     pub_sub.cpp
+    observer.cpp
 )
 
 # include 目录说明：

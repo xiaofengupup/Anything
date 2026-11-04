@@ -1,3 +1,6 @@
+/**
+ * 发布-订阅模式
+ */
 #pragma once
 
 #include <cstdint>
@@ -43,5 +46,7 @@ private:
     std::unordered_set<Topic> m_topics;
     std::unordered_map<Topic, std::vector<SubscriptionNode>> m_subscribers;
 };
+
+void PubSubDemo();
 
 }
