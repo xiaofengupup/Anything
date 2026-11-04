@@ -1,0 +1,10 @@
+# CMake 构建产物
+build/
+cmake-build-*/
+
+# IDE
+.vscode/
+.idea/
+
+# 系统
+.DS_Store
